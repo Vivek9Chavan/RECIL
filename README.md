@@ -4,7 +4,7 @@ Energy Efficiency and Realistic Scenarios in Incremental Learrning
 # InVar-100 Dataset
 
 <div style="display: flex; flex-direction: row;">
-  <div style="flex: 0.6; padding: 10px;">
+  <div style="flex: 0.5; padding: 10px;">
     The Industrial Objects in Varied Contexts (InVar)
 Dataset was internally produced by our team and contains
 100 objects in 20800 total images (208 images per class).
