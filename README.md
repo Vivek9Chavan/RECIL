@@ -24,6 +24,6 @@ object placed along with other objects from the lab in the
 background and no occlusion. The InVar-100 dataset can be accessed here: http://dx.doi.org/10.24406/fordatis/266
   </div>
   <div style="flex: 0.4; padding: 10px;">
-    <img src="https://github.com/Vivek9Chavan/RECIL/raw/main/qr-code2.png" alt="QR Code" width="40%" />
+    <img src="https://github.com/Vivek9Chavan/RECIL/raw/main/qr-code.png" alt="QR Code" width="40%" />
   </div>
 </div>
