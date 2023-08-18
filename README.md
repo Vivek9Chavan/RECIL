@@ -1,5 +1,6 @@
-# RECIL
-## Real World Scenarios and Energy Efficiency Considerations for Class Incremental Learning
+Towards Realistic Evaluation of Industrial Continual Learning Scenarios with an Emphasis on Energy Consumption and Computational Footprint
+
+## RECIL: Real World Scenarios and Energy Efficiency Considerations for Class Incremental Learning
 
 # InVar-100 Dataset
 
@@ -27,3 +28,17 @@ background and no occlusion. The InVar-100 dataset can be accessed here: http://
     <img src="https://github.com/Vivek9Chavan/RECIL/raw/main/qr-code2.png" alt="QR Code" width="40%" />
   </div>
 </div>
+
+<a name="bibtex"></a>
+## Citation
+
+If you find our work or any of our materials useful, please cite our paper:
+```
+@inproceedings{chavan2023towards,
+  title={Towards Realistic Evaluation of Industrial Continual Learning Scenarios with an Emphasis on Energy Consumption and Computational Footprint},
+  author={ Chavan, Vivek and Koch, Paul and Schlüter, Marian and Briese, Clemens},
+  booktitle={Proceedings of the International Conference on Computer Vision (ICCV)},
+  year={2023}
+}
+
+```
