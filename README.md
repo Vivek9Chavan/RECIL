@@ -1,5 +1,5 @@
-# ERIL
-Energy Efficiency and Realistic Scenarios in Incremental Learrning
+# RECIL
+## Real World Scenarios and Energy Efficiency considerations for Clas Incremental Learning
 
 # InVar-100 Dataset
 
