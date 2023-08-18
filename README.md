@@ -1,5 +1,5 @@
 # RECIL
-## Real World Scenarios and Energy Efficiency Considerations for Clas Incremental Learning
+## Real World Scenarios and Energy Efficiency Considerations for Class Incremental Learning
 
 # InVar-100 Dataset
 
