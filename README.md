@@ -8,10 +8,10 @@
 <div style="display: flex; flex-direction: row;">
   <div style="flex: 0.5; padding: 10px;">
    The **Industrial Objects in Varied Contexts** (InVar) Dataset was internally produced by our team and contains 100 objects in a total of 20,800 images (208 images per class). The objects consist of common automotive, machine, and robotics lab parts. Each class contains 4 sub-categories (52 images each) with different attributes and visual complexities.
-**White background **(D<sub>wh</sub>): The object is against a clean white background, and the object is clear, centered, and in focus.
+**White background **(D<sub>wh</sub>): The object is against a clean white background, and the object is clear, centred, and in focus.
 **Stationary Setup **(D<sub>st</sub>): These images are also taken against a clean background using a stationary camera setup, with uncentered objects at a constant distance. The images have lower DPI resolution with occasional cropping.
 **Handheld **(D<sub>ha</sub>): These images are taken with the user holding the objects, with occasional occlusion.
-**Cluttered background **(D<sub>cl</sub>): These images are taken with the object placed along with other objects from the lab in the background and no occlusion.
+**Cluttered background **(D<sub>cl</sub>): These images are taken with the object placed along with other objects from the lab in the background with no occlusion.
 The dataset was produced by our staff at different workstations and labs in Berlin. Human subjects, when present in the images (e.g. holding the object), remain anonymized. More details regarding the objects used for digitization are available in the metadata file.
 
  The InVar-100 dataset can be accessed here: http://dx.doi.org/10.24406/fordatis/266.2
