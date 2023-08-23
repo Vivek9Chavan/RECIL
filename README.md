@@ -21,7 +21,7 @@ The dataset was produced by our staff at different workstations and labs in Berl
 
 The InVar-100 dataset can be accessed here: http://dx.doi.org/10.24406/fordatis/266.2
 
-<img src="https://github.com/Vivek9Chavan/RECIL/raw/main/qr-code3.png" alt="QR Code" width="40%" />
+<img src="https://github.com/Vivek9Chavan/RECIL/raw/main/qr-codev2.png" alt="QR Code" width="40%" />
 
 <a name="bibtex"></a>
 ## Citation
