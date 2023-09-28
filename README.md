@@ -33,11 +33,13 @@ The InVar-100 dataset can be accessed here: http://dx.doi.org/10.24406/fordatis/
 
 If you find our work or any of our materials useful, please cite our paper:
 ```
-@inproceedings{chavan2023towards,
-  title={Towards Realistic Evaluation of Industrial Continual Learning Scenarios with an Emphasis on Energy Consumption and Computational Footprint},
-  author={ Chavan, Vivek and Koch, Paul and Schlüter, Marian and Briese, Clemens},
-  booktitle={Proceedings of the International Conference on Computer Vision (ICCV)},
-  year={2023}
+@InProceedings{Chavan_2023_ICCV,
+    author    = {Chavan, Vivek and Koch, Paul and Schl\"uter, Marian and Briese, Clemens},
+    title     = {Towards Realistic Evaluation of Industrial Continual Learning Scenarios with an Emphasis on Energy Consumption and Computational Footprint},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {11506-11518}
 }
 
 ```
