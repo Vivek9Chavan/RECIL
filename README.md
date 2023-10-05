@@ -42,7 +42,9 @@ The InVar-100 dataset can be accessed here: http://dx.doi.org/10.24406/fordatis/
 Our code borrows heavily form the following repositories:
 
 https://github.com/G-U-N/PyCIL
+
 https://github.com/facebookresearch/dino
+
 https://github.com/facebookresearch/VICRegL
 
 <a name="bibtex"></a>
