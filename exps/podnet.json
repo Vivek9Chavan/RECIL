@@ -1,0 +1,15 @@
+{
+    "prefix": "reproduce",
+    "dataset": "imagenet100",
+    "memory_size": 2000,
+    "memory_per_class": 20,
+    "fixed_memory": true,
+    "shuffle": true,
+    "init_cls": 88,
+    "increment": 1,
+    "increments": [10, 10, 10, 10, 10, 4, 7, 2, 14, 5, 3, 9, 6],
+    "model_name": "podnet",
+    "convnet_type": "resnet50",
+    "device": ["0"],
+    "seed": [404543]
+}
