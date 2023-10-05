@@ -4,7 +4,9 @@
 
 **Abstract:** Incremental Learning (IL) aims to develop Machine Learning (ML) models that can learn from continuous streams of data and mitigate catastrophic forgetting. We analyze the current state-of-the-art Class-IL implementations and demonstrate why the current body of research tends to be one-dimensional, with an excessive focus on accuracy metrics. A realistic evaluation of Continual Learning methods should also emphasize energy consumption and overall computational load for a comprehensive understanding. This paper addresses research gaps between current IL research and industrial project environments, including varying incremental tasks and the introduction of Joint Training in tandem with IL. We introduce InVar-100 (<ins>In</ins>dustrial Objects in <ins>Var</ins>ied Contexts), a novel dataset meant to simulate the visual environments in industrial setups and perform various experiments for IL. Additionally, we incorporate explainability (using class activations) to interpret the model predictions. Our approach, RECIL (<ins>R</ins>eal-world Scenarios and <ins>E</ins>nergy Efficiency considerations for <ins>C</ins>lass <ins>I</ins>ncremental <ins>L</ins>earning), provides meaningful insights about the applicability of IL approaches in practical use cases. The overarching aim is to tie the Incremental Learning and Green AI fields together and encourage the application of CIL methods in real-world scenarios. Code and dataset are available.
 
+
 ![Poster_img](https://github.com/Vivek9Chavan/RECIL/assets/57413096/a033df28-a033-4294-a4b0-e5641c540c42)
+
 
 # InVar-100 Dataset
 
@@ -34,6 +36,14 @@ The InVar-100 dataset can be accessed here: http://dx.doi.org/10.24406/fordatis/
 ## RECLUSE: Representation Clustering for Continual Learning using SSL Pretrained Encoder
 
 ### Code is being added, the paper is currently under review.
+
+## Acknowledgements
+
+Our code borrows heavily form the following repositories:
+
+https://github.com/G-U-N/PyCIL
+https://github.com/facebookresearch/dino
+https://github.com/facebookresearch/VICRegL
 
 <a name="bibtex"></a>
 ## Citation
