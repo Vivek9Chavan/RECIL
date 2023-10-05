@@ -24,6 +24,8 @@ def select_img(selected_pth, ext):
 
     for line in selected_pth:
         line = line.strip()
+        #remove '_2' from the name
+        line = line.replace('_2', '')
         if line.find('.pth') != -1:
             line = line[:line.find('.pth')] + '.' + ext
             selected_img.append(line)
@@ -32,12 +34,12 @@ def select_img(selected_pth, ext):
 # argparse
 def arg_parse():
     parser = argparse.ArgumentParser(description='Sample Dataset')
-    parser.add_argument('--feats_path', type=str, default='/mnt/DINO/', help='Path where the features are saved')
-    parser.add_argument('--images_path', type=str, default='/mnt/rain/', help='Path where the images are saved')
-    parser.add_argument('--image_extension', type=str, default='JPEG', help='Image extension')
-    parser.add_argument('--save_dir', type=str, default='/mnt/train_20_DINO/', help='Path where to save the selected images')
+    parser.add_argument('--feats_path', type=str, default='/mnt/logicNAS/DataSets/dimo_small/dimo_small/sim_jaigo_sorted_feats/', help='Path where the features are saved')
+    parser.add_argument('--images_path', type=str, default='/mnt/logicNAS/DataSets/dimo_small/dimo_small/sim_jaigo_sorted/', help='Path where the images are saved')
+    parser.add_argument('--image_extension', type=str, default='png', help='Image extension')
+    parser.add_argument('--save_dir', type=str, default='/mnt/logicNAS/DataSets/dimo_small/dimo_small/sim_jaigo_sorted_sampled/', help='Path where to save the selected images')
     parser.add_argument('--pca_dim', type=int, default=32, help='Dimension of PCA')
-    parser.add_argument('--num_images_per_class', type=int, default=20, help='number of images per class')
+    parser.add_argument('--num_images_per_class', type=int, default=45, help='number of images per class')
     args = parser.parse_args()
     return args
 
@@ -65,18 +67,18 @@ if __name__ == '__main__':
         names = preds[:,0]
 
 
-        #pca = PCA(n_components=args.pca_dim, svd_solver='full', random_state=404543)
-        #pca_results = pca.fit_transform(pred_array)
+        pca = PCA(n_components=args.pca_dim, svd_solver='full', random_state=404543)
+        pca_results = pca.fit_transform(pred_array)
 
         kmeans = KMeans(n_clusters=args.num_images_per_class, random_state=404543, n_init=100)
-        #clusters = kmeans.fit(pca_results)
-        clusters = kmeans.fit(pred_array)
+        clusters = kmeans.fit(pca_results)
+        #clusters = kmeans.fit(pred_array)
 
         # get the cluster centers
         cluster_centers = kmeans.cluster_centers_
 
-        #distances = cdist(cluster_centers, pca_results, 'euclidean')
-        distances = cdist(cluster_centers, pred_array, 'euclidean')
+        distances = cdist(cluster_centers, pca_results, 'euclidean')
+        #distances = cdist(cluster_centers, pred_array, 'euclidean')
 
         closest = []
 

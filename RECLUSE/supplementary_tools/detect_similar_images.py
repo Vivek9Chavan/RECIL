@@ -14,7 +14,7 @@ import torch
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description='Detect similar images using PCA results')
-    parser.add_argument('--feats_path', type=str, default='/mnt/logicNAS/Exchange/ImageNet_100/', help='Path to the stored features')
+    parser.add_argument('--feats_path', type=str, default='/mnt/logicNAS/Exchange/vivek/ImageNet_100/', help='Path to the stored features')
     parser.add_argument('--max_tolerance', type=float, default=0.1, help='Maximum tolerance for the similarity')
     parser.add_argument('--output_dir', type=str, help='path to the output directory')
     return parser.parse_args()

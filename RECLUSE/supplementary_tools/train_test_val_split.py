@@ -12,9 +12,9 @@ import pandas
 def train_test_split():
     print("########### Train Test Val Script started ###########")
 
-    target_dir = '/mnt/ILSVRC/Data/CLS-LOC/'
+    target_dir = '/mnt/4TB_HDD/chavvive/vivek/ILSVRC/Data/CLS-LOC/'
 
-    original_dir = '/mnt/Data/CLS-LOC/train/'
+    original_dir = '/mnt/4TB_HDD/chavvive/vivek/ILSVRC/Data/CLS-LOC/train/'
 
     classes_dir = list(os.listdir(os.path.join(original_dir)))
 

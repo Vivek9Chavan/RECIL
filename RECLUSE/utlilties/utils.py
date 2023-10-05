@@ -103,10 +103,12 @@ def load_pretrained_weights(model, pretrained_weights, checkpoint_key, model_nam
             url = "dino_xcit_medium_24_p8_pretrain/dino_xcit_medium_24_p8_pretrain.pth"
         elif model_name == "resnet50":
             url = "dino_resnet50_pretrain/dino_resnet50_pretrain.pth"
+        elif model_name == "dino_v2":
+            url = 'dinov2_vits14/dinov2_vits14_pretrain.pth'
         if url is not None:
             #print("Since no pretrained weights have been provided, we load the reference pretrained DINO weights.")
             state_dict = torch.hub.load_state_dict_from_url(url="https://dl.fbaipublicfiles.com/dino/" + url)
-            model.load_state_dict(state_dict, strict=True)
+            model.load_state_dict(state_dict, strict=False) # VC: strict=False to allow loading of linear weights
         else:
             print("There is no reference weights available for this model => We use random weights.")
 

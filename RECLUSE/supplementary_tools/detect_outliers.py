@@ -15,7 +15,7 @@ import torch
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description='Remove outliers from PCA results')
-    parser.add_argument('--feats_path', type=str, default='/mnt/ImageNet_100/', help='Path to the stored features')
+    parser.add_argument('--feats_path', type=str, default='/mnt/logicNAS/Exchange/vivek/ImageNet_100/', help='Path to the stored features')
     parser.add_argument('--max_points_to_remove', type=int, default=3, help='Maximum number of points to remove')
     parser.add_argument('--output_dir', type=str, default='.', help='path to the output directory')
     return parser.parse_args()

@@ -42,8 +42,8 @@ def write_json(file_details, file_name):
 
 
 if __name__ == '__main__':
-    path = '/mnt/train/Adapter/'
-    target_path = '/mnt/train/'
+    path = '/mnt/logicNAS/Exchange/vivek/industrial_100_Allgemein/train/Adapter/'
+    target_path = '/mnt/logicNAS/Exchange/vivek/industrial_100_Allgemein/train/'
     num_files = 20
     files = get_random_files_from_folders(path, num_files)
     file_details = get_file_details(path, files)

@@ -21,7 +21,7 @@ from functools import partial
 import torch
 import torch.nn as nn
 
-from RECLUSE.utlilties.utils import trunc_normal_
+from utlilties.utils import trunc_normal_
 
 
 def drop_path(x, drop_prob: float = 0., training: bool = False):
@@ -145,6 +145,8 @@ class VisionTransformer(nn.Module):
 
         self.cls_token = nn.Parameter(torch.zeros(1, 1, embed_dim))
         self.pos_embed = nn.Parameter(torch.zeros(1, num_patches + 1, embed_dim))
+        #self.pos_embed = nn.Parameter(torch.zeros(1, 1370, embed_dim))
+        print('Pos Embed: ', self.pos_embed.shape)
         self.pos_drop = nn.Dropout(p=drop_rate)
 
         dpr = [x.item() for x in torch.linspace(0, drop_path_rate, depth)]  # stochastic depth decay rule
