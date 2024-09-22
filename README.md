@@ -20,11 +20,14 @@ The **Industrial Objects in Varied Contexts** (InVar) Dataset was internally pro
 
 **Cluttered background** (D<sub>cl</sub>): These images are taken with the object placed along with other objects from the lab in the background with no occlusion.
 
-The dataset was produced by our staff at different workstations and labs in Berlin. Human subjects, when present in the images (e.g. holding the object), remain anonymized. More details regarding the objects used for digitization are available in the metadata file.
+The dataset was produced by our staff at different workstations and labs in Berlin. Human subjects, when present in the images (e.g. holding the object), remain anonymised. More details regarding the objects used for digitisation are available in the metadata file.
 
-The InVar-100 dataset can be accessed here: http://dx.doi.org/10.24406/fordatis/266.2
+### Hugging Face Directory:
+https://huggingface.co/datasets/vivek9chavan/InVar-100
 
-<img src="https://github.com/Vivek9Chavan/RECIL/raw/main/qr-codev2.png" alt="QR Code" width="40%" />
+The InVar-100 dataset can also be accessed here: http://dx.doi.org/10.24406/fordatis/266.2
+
+<img src="https://github.com/Vivek9Chavan/RECIL/raw/main/qr-codev2.png" alt="QR Code" width="30%" />
 
 
 ## Acknowledgements
