@@ -25,10 +25,7 @@ The dataset was produced by our staff at different workstations and labs in Berl
 ### Hugging Face Directory:
 https://huggingface.co/datasets/vivek9chavan/InVar-100
 
-The InVar-100 dataset can also be accessed here: http://dx.doi.org/10.24406/fordatis/266.2
-
-<img src="https://github.com/Vivek9Chavan/RECIL/raw/main/qr-codev2.png" alt="QR Code" width="30%" />
-
+The InVar-100 dataset can also be accessed here: [http://dx.doi.org/10.24406/fordatis/266.3](https://fordatis.fraunhofer.de/handle/fordatis/329.3)
 
 ## Acknowledgements
 
